@@ -1,0 +1,28 @@
+# Core data
+pandas>=2.0.0
+numpy>=1.24.0
+pyarrow>=12.0.0
+
+# Machine learning
+scikit-learn>=1.3.0
+xgboost>=2.0.0
+statsmodels>=0.14.0      # mixed-effects models
+
+# RFCDE ghost defender
+rfcde>=0.3.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.15.0            # interactive field plots
+
+# SHAP (feature importance)
+shap>=0.42.0
+
+# Notebook
+jupyter>=1.0.0
+ipykernel>=6.0.0
+
+# Utilities
+tqdm>=4.65.0              # progress bars for large CSV loads
+python-dotenv>=1.0.0

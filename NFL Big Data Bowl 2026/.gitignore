@@ -1,0 +1,56 @@
+# =====================
+# DATA — never commit raw tracking data (too large)
+# =====================
+data/raw/
+*.csv.gz
+*.parquet
+
+# Processed data exceptions — small outputs ARE committed
+!data/processed/
+!results/tables/
+
+# =====================
+# PYTHON
+# =====================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.env
+.venv
+env/
+venv/
+*.egg-info/
+dist/
+build/
+
+# =====================
+# JUPYTER
+# =====================
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# =====================
+# OS
+# =====================
+.DS_Store
+Thumbs.db
+
+# =====================
+# IDE
+# =====================
+.vscode/
+.idea/
+*.swp
+
+# =====================
+# MODELS — large serialized models go here if needed
+# =====================
+*.pkl
+*.joblib
+*.pt
+*.h5
+
+# If you want to commit a specific model, override with:
+# !results/models/my_model.pkl
