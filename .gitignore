@@ -54,3 +54,7 @@ Thumbs.db
 
 # If you want to commit a specific model, override with:
 # !results/models/my_model.pkl
+
+data/
+
+venv/
